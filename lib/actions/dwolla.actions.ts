@@ -57,6 +57,11 @@ export const createDwollaCustomer = async (
   try {
     //newCustomer.ssn = "123456789";
     //newCustomer.name = "Customer Name"; // Ensure the name attribute is included
+    const usStates = ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"];
+    if (!usStates.includes(newCustomer.state)) {
+      newCustomer.state = "CA"; // Default to California if invalid
+    }
+
     return await dwollaClient
       .post("customers", newCustomer)
       .then((res) => res.headers.get("location"));
