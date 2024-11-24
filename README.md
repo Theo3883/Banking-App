@@ -35,6 +35,6 @@ and many more, including code architecture and reusability.
 - ShadCN
 
 ### Photos of the app:
-
+<details>
 ![sign-in](https://github.com/user-attachments/assets/f406c8aa-34d1-4313-947b-25dad25038db)
-
+</details>
