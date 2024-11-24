@@ -1,4 +1,4 @@
-**Django & React Notes Web App**
+**Next.js Banking App**
 ------------------------------
 
 ### Features of this project:
@@ -35,10 +35,6 @@ and many more, including code architecture and reusability.
 - ShadCN
 
 ### Photos of the app:
-<details>
-<summary><code>Sign-in page</code></summary>
-![sign-in](https://github.com/user-attachments/assets/6e8e7664-e014-405c-9365-9cf98ec57b9f)
-</details>
-![sign-up](https://github.com/user-attachments/assets/d3abe7ef-4413-49b8-be87-da431a8aad2f)
 
+![sign-in](https://github.com/user-attachments/assets/f406c8aa-34d1-4313-947b-25dad25038db)
 
